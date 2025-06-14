@@ -1,0 +1,25 @@
+:root {
+  --content-width: #{rem(1796)};
+  --container-offset: #{rem(62)};
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  @include mediaLaptop {
+    --container-offset: #{rem(40)};
+  }
+
+  @include mediaTablet {
+    --container-offset: #{rem(30)};
+  }
+
+  @include mediaMobile {
+    --container-offset: #{rem(15)};
+  }
+}
+
+.container {
+  margin: 0 auto;
+
+  padding: 0 var(--container-offset);
+  width: 100%;
+  max-width: var(--container-width);
+}

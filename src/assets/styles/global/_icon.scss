@@ -1,0 +1,17 @@
+:root {
+  --icon-color: var(--color-text-dark);
+  --icon-size: #{rem(24)};
+}
+
+.icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  display: flex;
+  flex-shrink: 0;
+
+  fill: var(--icon-color);
+
+  transition:
+    fill var(--animation-default),
+    transform var(--animation-default);
+}

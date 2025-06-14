@@ -1,0 +1,42 @@
+// Roboto
+@font-face {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/Roboto/Roboto-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/Roboto/Roboto-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/Roboto/Roboto-Black.woff2') format('woff2');
+}
+
+// Roboto Condensed
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/RobotoCondensed/RobotoCondensed-Bold.woff2') format('woff2');
+}
+
+// Open Sans
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/OpenSans/OpenSans-Regular.woff2') format('woff2');
+}
