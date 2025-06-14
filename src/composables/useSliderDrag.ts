@@ -1,6 +1,11 @@
 import { ref } from 'vue';
+import type { Ref } from 'vue';
 
-export function useSliderDrag(cardWidth: any, slideCount: any, current: any) {
+export function useSliderDrag(
+  cardWidth: Ref<number>,
+  slideCount: Ref<number>,
+  current: Ref<number>
+) {
   const isDragging = ref(false);
   const startCoord = ref(0);
   const currentCoord = ref(0);
